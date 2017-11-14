@@ -31,8 +31,17 @@ To clone this repository to your computer:
 git clone https://github.com/dimakura/deep-client.git
 cd deep-client/
 ```
-To run setup script:
+
+And run the following scripts from project's home directory:
 
 ```sh
-bin/setup.sh
+export VIRTUALENV_PATH=.env
+
+pip3 install virtualenv
+virtualenv ${VIRTUALENV_PATH}
+source ${VIRTUALENV_PATH}/bin/activate
+
+pip3 install numpy
+pip3 install http://download.pytorch.org/whl/torch-0.2.0.post3-cp36-cp36m-macosx_10_7_x86_64.whl
+pip3 install torchvision
 ```
