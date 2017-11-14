@@ -20,7 +20,7 @@ brew install python3
 Also install standard package manager for Python:
 
 ```sh
-sudo easy_install pip
+sudo easy_install pip3
 ```
 
 All you need to do after this is to clone this repository and run setup script.
