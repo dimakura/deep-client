@@ -123,3 +123,13 @@ When you are done working with it, issue:
 (.env) $ deactivate
 $
 ```
+
+## Working with Jupyter notebooks
+
+To start jupyter notebooks:
+
+```sh
+(.env) $ jupyter notebook
+```
+
+and navigate to `notebooks/` folder.
