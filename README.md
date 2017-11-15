@@ -62,10 +62,16 @@ To activate environment, issue the following command:
 $ source .env/bin/activate
 ```
 
-This should change your command prompt to:
+This should change command prompt to:
 
 ```sh
 (.env) $
+```
+
+Ensure pip is installed:
+
+```sh
+(.env) $ easy_install -U pip
 ```
 
 ## 4. Install PyTorch
@@ -90,7 +96,6 @@ Install all other libraries using pip:
 
 ```sh
 (.env) $ pip3 install torchvision
-(.env) $ pip3 install numpy
 (.env) $ pip3 install --upgrade jupyter
 ```
 
