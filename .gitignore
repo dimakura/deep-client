@@ -4,3 +4,6 @@
 
 .env
 notebooks/.ipynb_checkpoints
+scripts/github
+data
+.kaggle-cli/
