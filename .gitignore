@@ -3,7 +3,7 @@
 *.swo
 
 .env
-notebooks/.ipynb_checkpoints
+.ipynb_checkpoints
 scripts/github
 data
 .kaggle-cli/
